@@ -6,6 +6,7 @@ disable=
       W0703, #catching too general exception Exception
       R0903, #few public methods
       C0304,
+      W0719,
       
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
