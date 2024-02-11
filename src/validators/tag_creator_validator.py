@@ -1,7 +1,7 @@
 from cerberus import Validator
 from src.errors.error_types.http_unprocessable_entity import HttpUnprocessableEntity
 
-def tag_creator_validador(request: any) -> None:
+def tag_creator_validator(request: any) -> None:
     body_validator = Validator({
         "product_code" : { "type" : "string", "required": True, "empty" : False}
     })
